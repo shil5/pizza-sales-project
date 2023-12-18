@@ -2,12 +2,12 @@
 (Power BI and SQL Project: creating an interactive dashboard on Pizza Sales and validation using SQL)
 
 ### Contents:
-1. [Problem Statement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#-pizza-sales-project)
-   A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#contents)
-   B. [Charts Requirement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#contents)
-2. Softwares Used (with Versions)
-3. Data Description
-4. SQL Queries
+1. [Problem Statement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#problem-statement)
+   - A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#a-kpis-requirement)
+   - B. [Charts Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#b-charts-requirement)
+2. [Softwares Used (with Versions)](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-softwares-used)
+3. [Data Description](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-data-description)
+4. [SQL Queries](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-sql-queries)
 
 ---
 
@@ -69,7 +69,7 @@ Granularity level: Pizza ID.
 ---
 
 ## ✅ SQL Queries
-On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [Click here](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
+On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [SQL Queries Document](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
 
 
 
