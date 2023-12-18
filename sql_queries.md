@@ -1,3 +1,5 @@
+⬅ [_Back to project report_](https://github.com/shil5/pizza-sales-project/tree/main)
+
 # ✅ SQL QUERIES WITH OUTPUT:
 
 This document enlists all the SQL queries fired on the MS SQL Server to get the values of the corresponding KPI's.
@@ -278,4 +280,4 @@ Output:
 
 ![image](https://github.com/shil5/pizza-sales-project/assets/61142233/02100fa8-46d6-4b48-bea9-0dbb8f0b7f30)
 
-
+⬅ [_Back to project report_](https://github.com/shil5/pizza-sales-project/tree/main)
