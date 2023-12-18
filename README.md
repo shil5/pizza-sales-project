@@ -1,7 +1,7 @@
 # 🍕 Pizza Sales Project
 (Power BI and SQL Project: creating an interactive dashboard on Pizza Sales and validation using SQL)
 
-### Contents:
+#### Contents:
 1. [Problem Statement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#problem-statement)
    - A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#a-kpis-requirement)
    - B. [Charts Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#b-charts-requirement)
@@ -11,7 +11,9 @@
 
 ---
 
-## Problem Statement:
+## Problem Statement: 
+<p align="right">(<a href="https://github.com/shil5/pizza-sales-project/blob/main/README.md#pizza-sales-project">back to top</a>)</p>
+
 ### A. KPI'S REQUIREMENT
 We need to analyse key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
 
@@ -22,6 +24,7 @@ We need to analyse key indicators for our pizza sales data to gain insights into
 5. **Average Pizzas Per Order:** The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
 ### B. CHARTS REQUIREMENT
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 We would like to visualise various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts: 
 1. 📊 **Daily Trend for Total Orders:**
 Create a bar chart that displays the daily trend of total orders over a specific time period. This chart will help us identify any patterns or fluctuations in order volumes on a daily basis. 
@@ -41,6 +44,7 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 ---
 
 ## 🛠 SOFTWARES USED
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 **MS Office / Excel:** Version 2019 (v2311)
 
 **MS SQL Server:** Version 2022
@@ -51,6 +55,7 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 ---
 
 ## 🔢 Data Description
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 48621 rows. CSV.
 Granularity level: Pizza ID.
 1. **pizza_id:** (Primary Key) Unique ID of pizza.
@@ -69,6 +74,7 @@ Granularity level: Pizza ID.
 ---
 
 ## ✅ SQL Queries
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [SQL Queries Document](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
 
 
