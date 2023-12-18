@@ -125,6 +125,8 @@ GROUP BY pizza_category
 ```
 Output:
 
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/32bcd598-09c9-4141-95c2-20f914dae800)
+
 
 ### 4. % of Sales by Pizza Size:
 ```sql
@@ -148,8 +150,9 @@ FROM pizza_sales
 GROUP BY pizza_size
 ORDER BY pizza_size
 ```
-Output
- 
+Output:
+
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/d026ceee-1102-4e7d-9ed3-395783cfebb4)
 
 ### 5. Total Pizzas Sold by Pizza Category:
 ```sql
@@ -164,8 +167,9 @@ FROM pizza_sales
 GROUP BY pizza_category
 ORDER BY total_quantity_sold DESC
 ```
-Output
+Output:
 
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/d2c69e61-d427-43f6-85b0-d43b53a0109f)
  
 ### 6. Top 5 Pizzas by Revenue:
 ```sql
@@ -173,13 +177,16 @@ SELECT
   Top 5 pizza_name,
   SUM(total_price) AS total_revenue
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_revenue DESC
 ```
 Output:
+
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/33fd6466-fb65-4b62-b0cd-09aa5d68d0c3)
 
  
 ### 7. Bottom 5 Pizzas by Revenue:
@@ -188,13 +195,16 @@ SELECT
   Top 5 pizza_name,
   SUM(total_price) AS total_revenue
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_revenue ASC
  ```
 Output:
+
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/512154d5-dba5-4158-aa0b-59b4c6bb0b92)
 
 
 ### 8. Top 5 Pizzas by Quantity:
@@ -203,13 +213,16 @@ SELECT
   Top 5 pizza_name,
   SUM(quantity) AS total_pizza_sold
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_pizza_sold DESC
 ```
 Output:
+
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/25f630aa-fdc7-4daf-a298-c233b535e6b1)
 
  
 ### 9. Bottom 5 Pizzas by Quantity:
@@ -218,13 +231,16 @@ SELECT
   TOP 5 pizza_name,
   SUM(quantity) AS total_pizza_sold
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_pizza_sold ASC
 ```
 Output:
+
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/76fd4f86-a5f9-40df-97ee-2be17ca89a34)
 
 
 ### 10. Top 5 Pizzas by Total Orders:
@@ -233,29 +249,33 @@ SELECT
   Top 5 pizza_name,
   COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_orders DESC
 ```
 Output:
 
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/6ffebddf-c9c1-4871-ad85-8435a768108c)
+
  
-### 11. Borrom 5 Pizzas by Total Orders:
+### 11. Bottom 5 Pizzas by Total Orders:
 ```sql
 SELECT
   Top 5 pizza_name,
   COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
-# WHERE pizza_category = 'Classic' # for category filter
-# WHERE MONTH(order_date) = 1 # for month filter 
-# WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+/* WHERE pizza_category = 'Classic' # for category filter
+ WHERE MONTH(order_date) = 1 # for month filter 
+ WHERE DATEPART(QUARTER, order_date) = 1 # for quarter filter
+*/
 GROUP BY pizza_name
 ORDER BY total_orders ASC
 ```
 Output:
 
- 
+![image](https://github.com/shil5/pizza-sales-project/assets/61142233/02100fa8-46d6-4b48-bea9-0dbb8f0b7f30)
 
 
