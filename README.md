@@ -9,7 +9,7 @@ We need to analyse key indicators for our pizza sales data to gain insights into
 2. **Average Order Value (AOV):** The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
 3. **Total Pizzas Sold:** The sum of the quanitites of all pizzas sold.
 4. **Total Orders:** The total number of orders placed.
-5. **Average Pizzas Per Order:** The average number of pizzas sold per order, calculated by dividing th total number of pizzas sold by the total number of orders.
+5. **Average Pizzas Per Order:** The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
 ### CHARTS REQUIREMENT
 We would like to visualise various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts: 
