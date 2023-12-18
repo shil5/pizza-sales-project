@@ -1,8 +1,18 @@
 # 🍕 Pizza Sales Project
 (Power BI and SQL Project: creating an interactive dashboard on Pizza Sales and validation using SQL)
 
-## Problem Statement
-### 📏 KPI'S REQUIREMENT
+### Contents:
+1. [Problem Statement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#-pizza-sales-project)
+   A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#contents)
+   B. [Charts Requirement](https://github.com/shil5/pizza-sales-project/edit/main/README.md#contents)
+2. Softwares Used (with Versions)
+3. Data Description
+4. SQL Queries
+
+---
+
+## Problem Statement:
+### A. KPI'S REQUIREMENT
 We need to analyse key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
 
 1. **Total Revenue:** The sum of the total price of all pizza orders.
@@ -11,7 +21,7 @@ We need to analyse key indicators for our pizza sales data to gain insights into
 4. **Total Orders:** The total number of orders placed.
 5. **Average Pizzas Per Order:** The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
-### CHARTS REQUIREMENT
+### B. CHARTS REQUIREMENT
 We would like to visualise various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts: 
 1. 📊 **Daily Trend for Total Orders:**
 Create a bar chart that displays the daily trend of total orders over a specific time period. This chart will help us identify any patterns or fluctuations in order volumes on a daily basis. 
@@ -27,7 +37,9 @@ Create a funnel chart that presents the total number of pizzas sold for each piz
 Create a bar chart highlighting the top 5 best-selling pizzas based on the Revenue, Total Quantity, Total Orders. This chart will help us identify the most popular pizza options. 
 7. 📊 **Bottom 5 Worst Sellers by Revenue, Total Quantity and Total Orders:**
 Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Revenue, Total Quantity, Total Orders. This chart will enable us to identify underperforming or less popular pizza options.
+
 ---
+
 ## 🛠 SOFTWARES USED
 **MS Office / Excel:** Version 2019 (v2311)
 
@@ -35,7 +47,9 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 **SQL Server Management Studio (SSMS):** Version 19.2
 
 **Power BI:** Version 2.123.742.0 64-bit (November, 2023)
+
 ---
+
 ## 🔢 Data Description
 48621 rows. CSV.
 Granularity level: Pizza ID.
@@ -51,7 +65,9 @@ Granularity level: Pizza ID.
 10. **pizza_category:** Category of Pizza among: Classic, Supreme, Veggie and Chicken.
 11. **pizza_ingredients:** Comma-separated List of ingredients of the pizza.
 12. **pizza_name:** Name of the Pizza (Consumer-Readable)
+
 ---
+
 ## ✅ SQL Queries
 On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [Click here](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
 
