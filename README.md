@@ -31,8 +31,27 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 ## 🛠 SOFTWARES USED
 **MS Office / Excel:** Version 2019 (v2311)
 
-**MS SQL Server:** 19.0
-**SQL Server Management Studio:** 19.0.20209.0
+**MS SQL Server:** Version 2022
+**SQL Server Management Studio:** Version 19.2
 
 **Power BI:** Version 2.123.742.0 64-bit (November, 2023)
+
+## 🔢 Data Description
+48621 rows. CSV.
+Granularity level: Pizza ID.
+1. **pizza_id:** (Primary Key) Unique ID of pizza.
+2. **order_id:** Unique ID of order. One order may contain multiple pizzas ordered.
+3. **pizza_name_id:** A unique SKU name for Pizza type with description and size, separated by underscores (like, bbq_ckn_l is barbecure chicken pizza of large size)
+4. **quantity:** No. of pizzas ordered. 
+5. **order_date:** Date of order. Format: DD-MM-YYYY
+6. **order_time:** Time of order. Format: HH:MM:SS
+7. **unit_price:** Price of an individual pizza in dollars. Numerical, float value upto 2 decimal places.
+8. **total_price:** Total Price of Pizza in dollars. Numerical, float value upto 2 decimal places. (On first observation, both 7: uni_price = 8: total_price, for all rows. So need to find why 2 duplicate features are needed.)
+9. **pizza_size:** Size of Pizza among: S, M and L. (Also present in 3: pizza_name_id)
+10. **pizza_category:** Category of Pizza among: Classic, Supreme, Veggie and Chicken.
+11. **pizza_ingredients:** Comma-separated List of ingredients of the pizza.
+12. **pizza_name:** Name of the Pizza (Consumer-Readable)
+
+
+
 
