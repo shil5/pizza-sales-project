@@ -42,7 +42,7 @@ Granularity level: Pizza ID.
 1. **pizza_id:** (Primary Key) Unique ID of pizza.
 2. **order_id:** Unique ID of order. One order may contain multiple pizzas ordered.
 3. **pizza_name_id:** A unique SKU name for Pizza type with description and size, separated by underscores (like, bbq_ckn_l is barbecure chicken pizza of large size)
-4. **quantity:** No. of pizzas ordered. 
+4. **quantity:** No. of pizzas ordered. Range of values is usually 1 to 7 or 8.
 5. **order_date:** Date of order. Format: DD-MM-YYYY
 6. **order_time:** Time of order. Format: HH:MM:SS
 7. **unit_price:** Price of an individual pizza in dollars. Numerical, float value upto 2 decimal places.
