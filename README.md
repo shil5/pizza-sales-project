@@ -42,12 +42,12 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 ---
 
 ## 🛠 SOFTWARES USED
-**MS Office / Excel:** Version 2019 (v2311)
+1. **MS Office / Excel:** Version 2019 (v2311)
 
-**MS SQL Server:** Version 2022
-**SQL Server Management Studio (SSMS):** Version 19.2
+2. **MS SQL Server:** Version 2022
+3. **SQL Server Management Studio (SSMS):** Version 19.2
 
-**Power BI:** Version 2.123.742.0 64-bit (November, 2023)
+4. **Power BI:** Version 2.123.742.0 64-bit (November, 2023)
 
 ---
 
