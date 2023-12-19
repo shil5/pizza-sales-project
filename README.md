@@ -73,4 +73,4 @@ Granularity level: Pizza ID.
 On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [SQL Queries Document](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
 
 
-[🔼 Back to top](https://github.com/shil5/pizza-sales-project/blob/main/README.md)
+<!--[🔼 Back to top](https://github.com/shil5/pizza-sales-project/blob/main/README.md)-->
