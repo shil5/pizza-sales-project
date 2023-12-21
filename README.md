@@ -1,16 +1,19 @@
 # 🍕 Pizza Sales Project
 (Power BI and SQL Project: creating an interactive dashboard on Pizza Sales and validation using SQL)
 
-_**Short on time?**_ Directly see this static dashboard pdf: [Pizza Sales Dashboard - Interactive Runnable](https://github.com/shil5/pizza-sales-project/blob/main/Pizza%20Sales%20Dashboard%20-%20Interactive%20Downloadable.pbix)
+### ⏰🏃‍♂️💨 _**Short on time?**_
+Directly see this static dashboard pdf: [Pizza Sales Dashboard - NON-interactive PDF](https://github.com/shil5/pizza-sales-project/blob/main/Pizza%20Sales%20Dashboard%20-%20non-interactive.pdf)
 
-#### Contents:
+**Note:** The above link is not INTERACTIVE, so is not a complete and true showcase of the dashboard. For a full understanding, read this README.
+
+### Contents:
 1. [Problem Statement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#problem-statement)
    - A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#a-kpis-requirement)
    - B. [Charts Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#b-charts-requirement)
 2. [Softwares Used (with Versions)](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-softwares-used)
 3. [Data Description](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-data-description)
 4. [SQL Queries](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-sql-queries)
-5. 🌟🌟[Final Dashboard](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-final-dashboard)
+5. 🌟🌟[Final Dashboard](https://github.com/shil5/pizza-sales-project/tree/main#final-dashboard)
 
 ---
 
