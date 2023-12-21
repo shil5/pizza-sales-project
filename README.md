@@ -16,10 +16,19 @@ Directly see this static dashboard pdf: [Pizza Sales Dashboard - NON-interactive
 5. 🌟🌟[Final Dashboard](https://github.com/shil5/pizza-sales-project/tree/main#final-dashboard)
 
 ---
+<div style="text-align: center;">
+   <p><b> Page 1: Home Page ⤵</b></p>
+   <img width="748" alt="dashboard page1" src="https://github.com/shil5/pizza-sales-project/assets/61142233/e93ddd88-399f-42cf-9bea-b252f68fec9f">
+   <p><b> Page 2: Best/Worst Sellers ⤵</b></p>
+   <img width="750" alt="dashboard page2" src="https://github.com/shil5/pizza-sales-project/assets/61142233/c6b346ac-087f-4d8a-aba2-e60bc4d323fd">
+</div>
+
+
+---
 
 ## Problem Statement: 
 
-### A. KPI'S REQUIREMENT
+### A. 📏KPI'S REQUIREMENT
 We need to analyse key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
 
 1. **Total Revenue:** The sum of the total price of all pizza orders.
