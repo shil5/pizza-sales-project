@@ -1,6 +1,8 @@
 # 🍕 Pizza Sales Project
 (Power BI and SQL Project: creating an interactive dashboard on Pizza Sales and validation using SQL)
 
+_**Short on time?**_ Directly see this static dashboard pdf: [Pizza Sales Dashboard - Interactive Runnable](https://github.com/shil5/pizza-sales-project/blob/main/Pizza%20Sales%20Dashboard%20-%20Interactive%20Downloadable.pbix)
+
 #### Contents:
 1. [Problem Statement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#problem-statement)
    - A. [KPI's Requirement](https://github.com/shil5/pizza-sales-project/blob/main/README.md#a-kpis-requirement)
@@ -8,6 +10,7 @@
 2. [Softwares Used (with Versions)](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-softwares-used)
 3. [Data Description](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-data-description)
 4. [SQL Queries](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-sql-queries)
+5. 🌟🌟[Final Dashboard](https://github.com/shil5/pizza-sales-project/blob/main/README.md#-final-dashboard)
 
 ---
 
@@ -71,6 +74,16 @@ Granularity level: Pizza ID.
 
 ## ✅ SQL Queries
 On SMSS, we run a number of queries to get the outputs which fulfil the KPI requirements. Here is the document with all the queries with screenshotted outputs: [SQL Queries Document](https://github.com/shil5/pizza-sales-project/blob/main/sql_queries.md)
+
+---
+
+## 🚀FINAL DASHBOARD
+To take a look at the final Dashboard report:
+1. Download the runnable PowerBI file: [Pizza Sales Dashboard - Interactive Runnable](https://github.com/shil5/pizza-sales-project/blob/main/Pizza%20Sales%20Dashboard%20-%20Interactive%20Downloadable.pbix) and open it on your local Power BI Desktop Application, or;
+2. Download the PDF file: [Pizza Sales Dashboard - non-interactive PDF](https://github.com/shil5/pizza-sales-project/blob/main/Pizza%20Sales%20Dashboard%20-%20non-interactive.pdf). This will not be interactive and would simply be a collection of all the dashboard pages.
+
+---
+THE END
 
 
 <!--[🔼 Back to top](https://github.com/shil5/pizza-sales-project/blob/main/README.md)-->
